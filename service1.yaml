@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: web-server
-        image: 709973393692.dkr.ecr.us-west-2.amazonaws.com/webservergt:4.0
+        image: 709973393692.dkr.ecr.us-west-2.amazonaws.com/webservergt:3.0
         ports:
         - containerPort: 80
       nodeSelector:
